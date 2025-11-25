@@ -1,0 +1,10 @@
+---
+name: MineReset
+main: ApexGaming\MineReset\Main
+version: 1.0.0
+api: 5.36.0
+author: TheFaRHaNiR
+permissions:
+  minereset.command:
+    default: op
+...

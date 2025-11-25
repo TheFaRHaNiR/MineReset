@@ -1,0 +1,16 @@
+---
+# DO NOT TOUCH!
+config-version: "1.0.0"
+# Plugin prefix
+prefix: "§7[§b§lMine§dReset§r§7] "
+# how many blocks this should replace in a tick, 1 tick = 1/20 of a second
+blockReplaceTick: 3000
+# allows you to enable/disable block collision mode on mine reset so it will 
+# take you to world spawn
+teleport-to-spawn: true
+
+# use {prefix} => Insert plugin prefix
+# use {mine} => Show mine name
+messages:
+  mine-reset-announcement: "{prefix} §bMine §a{mine}§b is resetting."
+...
