@@ -32,13 +32,6 @@ Each mine can have its own reset interval, block distribution, reset mode, and p
 | **Asynchronous reset process** | Mine resets are processed incrementally to avoid performing the entire operation in a single tick.    |
 | **Configuration control**      | Control reset performance, player teleportation, prefixes, and reset announcements from `config.yml`. |
 
-## Requirements
-
-| Requirement   | Version |
-| ------------- | ------- |
-| PocketMine-MP | 5.36.0  |
-| API           | 5.36.0  |
-
 No external plugin dependencies are required.
 
 ## Installation
